@@ -1,0 +1,27 @@
+version: '3'
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    volumes:
+      - /app/node_modules
+      - ./client:/usr/src/app
+    ports:
+      - '3000:3000'
+    restart: on-failure
+    container_name: fields_and_barns_client
+    tty: true
+    stdin_open: true
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - '3001:3001'
+    restart: on-failure
+    container_name: fields_and_barns_server
+    stdin_open: true
+    volumes:
+      - /app/node_modules # Inside the container, don't try to override this folder, just leave as is
+      - ./server:/usr/src/app # Look at the server directory and copy everything into the app folder in the container

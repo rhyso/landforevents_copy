@@ -1,0 +1,46 @@
+#homepageintro {
+    text-align: center;
+    width: 644px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2B2B2D;
+    margin-top: 50px;
+    width: 508px;
+    padding: 0 42px;
+    color: #2B2B2D;
+    font-family: 'EB Garamond', serif;
+    font-size: 21px;
+    letter-spacing: 0.32px;
+    line-height: 30px;
+}
+
+#homepageintro h1{
+    line-height: 27px;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 27px 0 50px 0;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+#startsearchhere{
+    text-align: center;
+    margin: 54px 0 60px 0;
+}
+
+#startsearchhere h2{
+    font-size: 20px;
+    margin-bottom: 35px;
+    line-height: 36px;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    color:#2B2B2D;
+    font-weight: normal;
+}
+
+#startsearchhere .nbutton{
+    display: inline-block;
+    margin: 0 14px;
+}

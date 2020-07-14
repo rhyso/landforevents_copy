@@ -1,0 +1,39 @@
+@import '~antd/dist/antd.css';
+
+#homepageintro span{
+    color:red
+}
+
+.ant-menu{
+    float: left;
+}
+
+.admin-content-area{
+    float: left;
+    display: inline-block;
+    margin-left: 50px;
+    max-width: 800px;
+    padding-bottom: 150px;
+}
+
+.ant-form{
+    margin-top: 20px;
+}
+
+.adminInto{
+    padding-top: 30px;
+    background-color: midnightblue;
+}
+
+.adminInto h1{
+    color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@import "./styles/admin-header.css";
+
+.listed-land-table-header{
+    width: 800px;
+    float: left;
+}

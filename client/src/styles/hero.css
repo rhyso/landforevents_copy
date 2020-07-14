@@ -1,0 +1,9 @@
+.hero-holder{
+    height:500px;
+    border: 1px solid grey;
+    background-image: url("../images/peter-gonzalez-pwnjj43uYbA-unsplash.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}

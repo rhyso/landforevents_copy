@@ -1,0 +1,47 @@
+.search-container input{
+    min-width: 700px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    display:inline-block;
+    padding: 20px;
+    background-image: url("../images/noun_Search.png");
+    background-position: left;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    font-size: 16pxl;
+}
+
+.hero-search-padding{
+    padding-top: 200px;
+}
+
+.hero-search-padding p{
+    padding: 20px 20px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.field-container{
+    text-align: center;
+}
+
+.example_c {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    padding: 20px 20px;
+    border: 1px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    border-left:1px solid white!important;
+    border-left: none
+    }
+
+.example_c:hover {
+    color: #ffffff !important;
+    background: #f6b93b;
+    transition: all 0.4s ease 0s;
+    border-left:1px solid white!important;
+ }

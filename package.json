@@ -1,0 +1,29 @@
+{
+  "name": "land-for-events",
+  "version": "1.0.0",
+  "main": "server/server.js",
+  "repository": {},
+  "license": "MIT",
+  "engines": {
+    "node": "14.4.0",
+    "npm": "5.6.0"
+  },
+  "dependencies": {
+    "@urbica/react-map-gl": "^1.13.1",
+    "concurrently": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "emailjs-com": "^2.4.1",
+    "mapbox-gl": "^1.10.1",
+    "nocache": "^2.1.0",
+    "react-datepicker": "^2.16.0",
+    "rimraf": "^2.6.2",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "build": "cd client && npm run build",
+    "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
+    "install": "(cd client && npm install ) && (cd server && npm install)",
+    "start": "node server/server.js",
+    "start:prod": "cd server && npm run start:prod"
+  }
+}

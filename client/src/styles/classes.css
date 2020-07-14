@@ -1,0 +1,22 @@
+
+.nbutton{
+    white-space: nowrap;
+    background: #FFFFFF;
+    color: #2B2B2D;
+    border: 1px solid #AD9F93;
+    padding: 15px 40px;
+    font-weight: normal;
+    text-decoration: none;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    display: inline-block;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    text-align: center;
+}

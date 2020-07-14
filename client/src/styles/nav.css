@@ -1,0 +1,52 @@
+
+h1.header-title{
+    font-family: 'EB Garamond', serif;
+    font-size:40px;
+    color:black;
+    text-align: center;
+}
+
+.topmenu{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    /*height:44px;*/
+    background:#FFFFFF;
+    z-index:7;
+    padding-top:38px;
+    display:block;
+    background: white;
+}
+
+ul#uhs-cat{
+    margin: 25px 0 35px 0;
+    width: 855px;
+    padding: 0px 0px;
+    margin-right: auto;
+    margin-left: auto;
+    list-style: none;
+    text-align: center;
+}
+
+ul#uhs-cat li {
+    display: inline-block;
+    padding: 0;
+    line-height: 24px;
+    height: 24px;
+}
+
+ul#uhs-cat li a {
+    margin: 0 25px 0 0;
+    padding: 0;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1.68px;
+    color: #2B2B2D;
+    text-decoration: none;
+}
+
+ul#uhs-cat li a.is-active{
+    color:red
+}

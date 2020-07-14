@@ -1,0 +1,15 @@
+docker run -it -p 80:3000 rhyso/fieldsandbarns
+
+docker ps   //list docker images running
+
+docker kill 7fcea6d00625 (get pid from above and kill like so)
+
+docker images
+
+docker-compose build
+docker-compose up
+docker-compose restart
+
+sudo service docker restart
+
+docker-compose --verbose up --build

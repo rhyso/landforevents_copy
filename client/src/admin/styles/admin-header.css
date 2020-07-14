@@ -1,0 +1,40 @@
+.admin-header {
+    background-color:#173f5f;
+    height: 65px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.admin-header-secondary{
+    clear: both;
+    min-height: 40px;
+    width: 100%;
+    padding: 10px 30px;
+    background-color: #fd5c63;
+    margin-bottom: 40px;
+    color:white
+}
+
+.admin-header h1{
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+
+.admin-header .auth-events .sign-out {
+    background-image: url('../images/logout.svg');
+    background-position: left;
+    float: right;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    /* background-color: white; */
+    display: inline;
+    padding-left: 23px;
+    margin-top: -30px;
+    color: white;
+}

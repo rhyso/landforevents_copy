@@ -1,0 +1,113 @@
+.all-fields{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    position: relative;
+    border-width: 0 1px;
+    margin-top: 50px;
+    padding: 0 42px;
+    color: #2B2B2D;
+
+}
+.all-fields .content{
+    margin-top: 200px;
+    padding: 0 42px;
+    color: #2B2B2D;
+    padding: 0 42px;
+    margin-bottom: 40px;
+    text-align: center;
+    
+}
+
+.all-fields h1{
+    font-size: 30px;
+    line-height: 42px;
+    font-family: EBGaramondRegular, serif;
+    text-align: center;
+    color: #2B2B2D;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    ont-family: EBGaramondBold, serif;
+}
+
+.all-fields .intro-text{
+    width: 476px;
+    padding: 0 14px;
+    margin: 0 auto;
+    text-align: center;
+    margin: 20px auto 40px auto;
+}
+
+.all-fields .field-box{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.field-box img {
+    width: 250px;
+    max-width: 180px;
+}
+
+.all-fields .activity{
+    /* width: 308px; */
+    padding: 0 14px;
+    margin: 30px 0;
+    /* float: left; */
+    flex: 1 0 21%;
+    flex-grow: 1;
+    width: calc(100% * (1/4) - 10px - 1px);
+    text-align: center;
+    display: inline-block;
+    margin: 10px 0 50px 2%;
+    flex-grow: 1;
+}
+
+.all-fields .first-activity{
+    clear: left;
+}
+
+.all-fields .activity h2{
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 37px 0 13px 0;
+    text-transform: none;
+    letter-spacing: 0;
+}
+
+.all-fields .activity p{
+    font-family: EBGaramondRegular, serif;
+    font-size: 15.5px;
+    line-height: 21px;
+    color: #2B2B2D;
+    letter-spacing: 0.15px;
+    margin: 0 0 8px 0;
+}
+
+.all-fields .activity img{
+    max-width: 250px;
+}
+
+.all-fields .container2{
+    margin-top: 50px;
+    padding: 0 42px;
+    color: #2B2B2D;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 700px;
+}
+
+.all-fields .activitylink{
+    line-height: 16px;
+    font-family: BrandonGrotesqueMedium, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    color: #2B2B2D;
+    border-bottom: 1px solid #AD9F93;
+    display: inline-block;
+}
