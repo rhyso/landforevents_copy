@@ -17,7 +17,7 @@ export const Nav = () => {
                         <NavLink exact activeClassName='is-active'  to="/fields"><b>FIELDS</b></NavLink>
                     </li>
                     <li id="unique-barns">
-                        <NavLink exact activeClassName='is-active'  to="/barns"><b>BARNS</b></NavLink>
+                        <NavLink exact activeClassName='is-active'  to="/barns"><b>BARNS.</b></NavLink>
                     </li>                    
                     <li id="unique-weddings-and-events">
                         <NavLink exact activeClassName='is-active'  to="/weddings-and-events"><b>WEDDINGS & EVENTS</b></NavLink>
