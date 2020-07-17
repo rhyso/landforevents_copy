@@ -11,6 +11,11 @@ const makeId = (length)  => {
   return result;
 }
 
+/***** */
+
+//NEED TO CREATE A NEW AWS ACCESS KEY AND MAYBE SECRET KEY AS I DELETED THESE
+/***** */
+
 
 // Configure aws with your accessKeyId and your secretAccessKey
 aws.config.update({
