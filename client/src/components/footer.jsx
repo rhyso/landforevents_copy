@@ -33,9 +33,9 @@ const Footer = () => (
                     <h2>Login</h2>
                 </div>
             </div>
-            <div className="copyright">
+            {/* <div className="copyright">
                      <small class="footer__legal">© 2020 Fields and Barns. All Rights Reserved.</small>
-            </div>
+            </div> */}
     </footer>
     )
 

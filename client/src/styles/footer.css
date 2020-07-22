@@ -179,8 +179,9 @@
 }
 
 .site-footer .container{
-    display: flex;
+    display: inline-flex;
     margin-left: 15%;
+    max-width: 1000px;
 }
 
 .site-footer h2{
