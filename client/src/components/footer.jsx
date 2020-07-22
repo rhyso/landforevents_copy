@@ -19,6 +19,7 @@ const Footer = () => (
                     <h2>Fields</h2>
                     <h2>Barns</h2>
                     <h2>Weddings & Events</h2>
+                    <h2>Camping</h2>
 
                 </div>
 

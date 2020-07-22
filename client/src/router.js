@@ -22,6 +22,8 @@ import FAQ from './pages/faq'
 import Fields from './pages/fields';
 import IndividualField from './pages/individual-field'
 import WeddingsAndEvents from './pages/weddings-and-events'
+import Camping from './pages/camping'
+
 import SearchResults from './pages/search-results'
 
 
@@ -43,6 +45,7 @@ return(
             <Route exact path="/fields/:fieldId" component={IndividualField} />
             <Route exact path="/owners" component={Owners}/>
             <Route exact path="/weddings-and-events" component={WeddingsAndEvents}/>
+            <Route exact path="/camping" component={Camping}/>
             <Route exact path="/faq" component={FAQ}/>
             <Route exact path="/search-results" component={SearchResults} props={props}/>
 

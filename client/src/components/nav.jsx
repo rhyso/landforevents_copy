@@ -22,6 +22,9 @@ export const Nav = () => {
                     <li id="unique-weddings-and-events">
                         <NavLink exact activeClassName='is-active'  to="/weddings-and-events"><b>WEDDINGS & EVENTS</b></NavLink>
                     </li>
+                    <li id="unique-camping">
+                        <NavLink exact activeClassName='is-active'  to="/camping"><b>CAMPING</b></NavLink>
+                    </li>
                     <li id="unique-owners">
                         <NavLink exact activeClassName='is-active'  to="/owners"><b>OWNERS</b></NavLink>
                     </li>
