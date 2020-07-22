@@ -13,7 +13,7 @@ const FAQ = () =>(
                         <div className="barns">
                             <h1>FAQ</h1>
                             <div class="intro-text">
-                                <p>List of frequently asked questions below</p>
+                                <p>List of frequently asked questions coming soon</p>
                             </div>
                         </div>
                     </div>
