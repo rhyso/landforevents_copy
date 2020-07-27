@@ -8,6 +8,8 @@ const Footer = () => (
 
     <footer className="site-footer">
         <div className="container">
+        <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+
                <div className="title-and-desc">
                     <h1>Fields & Barns</h1>
                     <h4>More than just a collection of fields and barns for hire, we’re sharing and showcasing the best of the British landscape. From coast to country, we’re working with farmers and landowners alike to share with you those special, one of a kind spaces and places.</h4>
