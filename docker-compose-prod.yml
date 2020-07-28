@@ -8,7 +8,7 @@ services:
     #   - /app/node_modules
     #   - ./client:/usr/src/app
     ports:
-      - '8080:80'
+      - '80:80'
     restart: on-failure
     container_name: fields_and_barns_client
     tty: true
