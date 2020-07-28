@@ -31,7 +31,7 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
       with:
-        source: "."
+        source: "*,!client/node_modules"
         target: "/var/www/landforevents"
 
     - name: Executing remote  command
@@ -41,4 +41,4 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
-        script: cd /var/www/landforevents/ && docker-compose up -d --build && docker-compose ps
+        script: cd /var/www/landforevents/ && docker-compose -f docker-compose-prod.yml up -d --build && docker-compose ps
