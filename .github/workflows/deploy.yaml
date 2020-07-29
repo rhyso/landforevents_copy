@@ -18,7 +18,7 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm install --production
-    - run: npm run build-prod --production
+    - run: npm run build
     #- run: npm test
       env:
         CI: false
