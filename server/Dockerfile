@@ -4,6 +4,6 @@ WORKDIR /usr/src/app
 # Install dependencies
 COPY package*.json ./
 RUN npm install 
-COPY . .
+COPY ./build .
 # Default command
 CMD ["npm", "run", "start"]
