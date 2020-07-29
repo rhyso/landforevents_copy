@@ -9,6 +9,7 @@ const Footer = () => (
     <footer className="site-footer">
         <div className="container">
         <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+        <p>quick test</p>
 
                <div className="title-and-desc">
                     <h1>Fields & Barns</h1>
