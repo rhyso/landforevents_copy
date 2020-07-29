@@ -21,7 +21,8 @@
   },
   "scripts": {
     "build-dev": "cd client && npm run build",
-    "build": "cd client && npm run build && rm -rf node_modules && npm install --only=production",
+    "build": "cd client && npm run build && rm -rf node_modules && npm install",
+    "build-prod": "cd client && npm run build --production && rm -rf node_modules && npm install --only=production",
     "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
     "install": "(cd client && npm install ) && (cd server && npm install)",
     "start": "node server/server.js",
