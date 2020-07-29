@@ -25,6 +25,7 @@
     "build-prod": "npm run build --production",
     "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
     "install": "(cd client && npm install ) && (cd server && npm install)",
+    "install-prod": "(cd client && npm install --production) && (cd server && npm install --production)",
     "start": "node server/server.js",
     "start:prod": "cd server && npm run start:prod"
   },
