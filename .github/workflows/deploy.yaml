@@ -13,6 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
     - name: Cache node modules
       uses: actions/cache@v2
       env:
@@ -25,12 +26,13 @@ jobs:
           ${{ runner.os }}-build-${{ env.cache-name }}-
           ${{ runner.os }}-build-
           ${{ runner.os }}-      
+          
     - name: Use Node.js
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm install
-    - run: npm run build
+    - run: npm install --only=prod 
+    - run: npm run build --if-present
     #- run: npm test
       env:
         CI: false
