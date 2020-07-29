@@ -27,7 +27,7 @@ constructor(){
 //https://blog.hellojs.org/fetching-api-data-with-react-js-460fe8bbf8f2
 
 componentDidMount() {
-    fetch (`${REACT_APP_API_URL}getFields`)
+    fetch (`${process.env.REACT_APP_API_URL}getFields`)
     .then( results => {
         return results.json()
     }).then (data => {
