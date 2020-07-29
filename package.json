@@ -26,5 +26,8 @@
     "install": "(cd client && npm install ) && (cd server && npm install)",
     "start": "node server/server.js",
     "start:prod": "cd server && npm run start:prod"
+  },
+  "devDependencies": {
+    "react-scripts": "^3.4.1"
   }
 }
