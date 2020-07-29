@@ -22,6 +22,6 @@ services:
     restart: on-failure
     container_name: fields_and_barns_server
     stdin_open: true
-    volumes:
-      - /app/node_modules # Inside the container, don't try to override this folder, just leave as is
-      - ./server:/usr/src/app # Look at the server directory and copy everything into the app folder in the container
+    # volumes:
+    #   - /app/node_modules # Inside the container, don't try to override this folder, just leave as is
+    #   - ./server:/usr/src/app # Look at the server directory and copy everything into the app folder in the container
