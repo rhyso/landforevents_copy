@@ -21,7 +21,7 @@
   },
   "scripts": {
     "build-dev": "cd client && npm run build",
-    "build": "cd client && npm run build",
+    "build": "cd client && npm run build-prod",
     "clean": "concurrently \"rimraf node_modules\" \"cd client && rimraf node_modules build\" \"cd server && rimraf node_modules build\"",
     "install": "(cd client && npm install ) && (cd server && npm install)",
     "install-prod": "(cd client && npm install --production) && (cd server && npm install --production)",
