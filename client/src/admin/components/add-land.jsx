@@ -33,7 +33,7 @@ const AddLand = ({history})  => {
                 <AdminMenu />
                 {/*https://ant.design/components/form/*/}
                 <div className={'admin-content-area'}>
-                    <Title level={3}>Add land here</Title>
+                    <Title level={3}>Add a new listing</Title>
                     <span onClick ={ ()=>     history.push('/admin/home')}> Test</span>
                 <Text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Donec ac neque id nulla consectetur dapibus.

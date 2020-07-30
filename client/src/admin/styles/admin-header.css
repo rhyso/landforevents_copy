@@ -1,6 +1,6 @@
 .admin-header {
     background-color:#173f5f;
-    height: 65px;
+    min-height: 65px;
     padding: 10px 30px;
     width: 100%;
 }

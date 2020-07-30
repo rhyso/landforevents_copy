@@ -28,7 +28,7 @@ const FieldLevelValidationForm = props => {
                 label="Location"
                 validate={[required, maxLength8, minLength6]}
             />
-            <label className="datePickerLabel">Available From</label>
+            {/* <label className="datePickerLabel">Available From</label>
             <FieldDatePicker 
                 name="dateStart" 
                 placeholder="Start Date" 
@@ -42,7 +42,7 @@ const FieldLevelValidationForm = props => {
                 label="End Date"
                 parse={normalizeDates}
                 format={formatDates}
-            /><br/><br/>
+            /><br/><br/> */}
             {/* TODO add an unavilable date https://redux-form.com/8.2.2/examples/react-widgets/ */}
             <h4 className="fieldTypeLabel"> Field Usage Type</h4>
             <div className="fieldUsages">

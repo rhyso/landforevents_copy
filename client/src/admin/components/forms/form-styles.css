@@ -72,3 +72,7 @@ button{
 .fieldUsages{
     display: inline-block;
 }
+
+.SingleDatePickerInput__withBorder{
+    border:none!important;
+}

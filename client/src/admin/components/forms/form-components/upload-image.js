@@ -99,13 +99,11 @@ class UploadImage extends Component {
     }
     return (
       <div className="App">
-        <center>
           <h1>UPLOAD YOUR IMAGE</h1>
           {this.state.success ? <Success_message/> : null}
           <input onChange={this.handleChange} ref={(ref) => { this.uploadInput = ref; }} type="file"/>
           <br/>
           <button onClick={this.handleUpload}>UPLOAD</button>
-        </center>
       </div>
     );
   }

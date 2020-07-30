@@ -44,16 +44,17 @@ class AdminMenu extends Component {
                         </span>
                     }
                 >
+                    <Menu.Item key="5" disabled={true}>Current Bookings</Menu.Item>
 
                     <Menu.Item key="1"><Link to={"/admin/land/add"}>Add land for hire</Link></Menu.Item>
                     {/* <Menu.Item key="2"><Link to={"/admin/land/images/add"}>Add images </Link></Menu.Item> */}
-                    <Menu.Item key="3">Edit land</Menu.Item>
-                    <Menu.Item key="4">Update land</Menu.Item>
-                    <Menu.Item key="5">Remove Land</Menu.Item>
-                    <SubMenu key="sub3" title="Submenu">
-                        {/* <Menu.Item key="7"><Link to={"/admin/land/images/add"}>Add Images</Link></Menu.Item> */}
+                    <Menu.Item key="3">Edit listing</Menu.Item>
+                    <Menu.Item key="4" disabled={true}>Update listings</Menu.Item>
+                    <Menu.Item key="5" disabled={true}>Remove a listing</Menu.Item>
+                    {/* <SubMenu key="sub3" title="Submenu">
+                        <Menu.Item key="7"><Link to={"/admin/land/images/add"}>Add Images</Link></Menu.Item>
                         <Menu.Item key="8">Option 8</Menu.Item>
-                    </SubMenu>
+                    </SubMenu> */}
                 </SubMenu>
                 <SubMenu
                     key="sub2"
@@ -64,8 +65,8 @@ class AdminMenu extends Component {
             </span>
                     }
                 >
-                    <Menu.Item key="5">Update details</Menu.Item>
-                    <Menu.Item key="6">Deactivate Account</Menu.Item>
+                    <Menu.Item disabled={true} key="5">Update details</Menu.Item>
+                    <Menu.Item disabled={true} key="6">Deactivate Account</Menu.Item>
                 </SubMenu>
                 <SubMenu
                     key="sub4"
@@ -76,10 +77,8 @@ class AdminMenu extends Component {
             </span>
                     }
                 >
-                    <Menu.Item key="9">Payment details</Menu.Item>
-                    <Menu.Item key="10">Option 10</Menu.Item>
-                    <Menu.Item key="11">Option 11</Menu.Item>
-                    <Menu.Item key="12">Option 12</Menu.Item>
+                    <Menu.Item disabled={true} key="9">Payment details</Menu.Item>
+                    <Menu.Item disabled={true} key="10">Terms of Agreement</Menu.Item>
                 </SubMenu>
             </Menu>
         );

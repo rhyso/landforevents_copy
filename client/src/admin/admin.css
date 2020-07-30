@@ -37,3 +37,7 @@
     width: 800px;
     float: left;
 }
+
+.disabled-menu-item{
+    color:red;
+}
