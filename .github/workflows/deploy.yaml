@@ -32,7 +32,7 @@ jobs:
         PORT: ${{ secrets.PORT }}
         KEY: ${{ secrets.SSHKEY }}
       with:
-        source: "*,!node_modules,!client/node_modules"
+        source: "*,!node_modules,!client/node_modules,!server/node_modules"
         target: "/var/www/landforevents"
 
     - name: Executing remote  command
