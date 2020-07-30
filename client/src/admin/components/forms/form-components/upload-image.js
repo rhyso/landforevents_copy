@@ -36,7 +36,7 @@ class UploadImage extends Component {
     let fileName = fileParts[0];
     let fileType = fileParts[1];
     console.log("Preparing the upload");
-    axios.post("http://localhost:3001/api/sign_s3",{
+    axios.post(`${process.env.REACT_APP_API_URL}sign_s3`,{
       fileName : fileName,
       fileType : fileType
     })
@@ -80,7 +80,7 @@ class UploadImage extends Component {
             field: this.state.field,
             imageUrl: this.state.url
           }
-          axios.post(`${serverPath}/api/addFieldImage`, values)
+          axios.post(`${process.env.REACT_APP_API_URL}/addFieldImage`, values)
           .then(response => console.log(response))
           .catch((err) => console.log(err))
           .then(setTimeout(() =>

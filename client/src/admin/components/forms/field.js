@@ -69,14 +69,14 @@ const FieldLevelValidationForm = props => {
                 value="test"
             />
 
-            {/* <Field
+            <Field
                 name="fieldImage"
                 type="text"
                 component={UploadImage}
                 validate={[required]}
                 warn={alphaNumeric}
                 defaultValue={"testing"}
-            /> */}
+            />
 
 
             {/* //need to add amenitites */}
